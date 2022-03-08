@@ -25,4 +25,4 @@ By the end of the course, we will have the app availble on appStore and user wil
 
 >This is a capstone project for course ICSI 499: Capstone Project @ University at Albany. Our sponsor is Mark Mitalski from EQuALS, LLC.  [www.equals.prepareinc.us](https://equals.prepareinc.us)
 
-![End Banner](Documentation/SwiftLogo.png)
+![End Banner](Documentation/SwiftLogoW.jpeg)

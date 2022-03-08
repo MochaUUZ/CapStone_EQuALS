@@ -1,27 +1,28 @@
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+![EQuALS Logo](Documentation/equalLOGO.png)
 
-#  BMI Calculator
+#  EQuALS
 
 ## Our Goal
 
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
+The goal of our project is to develop a mobile application of a web application call "EQuALS". 
+We will make sure all the functionality the [web application](https://equals.prepareinc.us) have 
+wil not be lose during the implementation. In addition, the overall UI/UX will be re-design to meet the mobile standard. 
 
-## What you will create
+## What we will create
 
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
+By the end of the course, we will have the app availble on appStore and user will be able to register and login to access the content.
 
-## What you will learn
+## What we will learn
 
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
+* Mobile app development
+* Working knowledge of SWiftUI and XCode 
+* UI/UX design for mobile application 
+* Team-oriented development setting
 
 
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+
+>This is a capstone project for course ICSI 499: Capstone Project @ University at Albany. Our sponsor is Mark Mitalski from EQuALS, LLC.  [www.equals.prepareinc.us](https://equals.prepareinc.us)
 
 ![End Banner](Documentation/readme-end-banner.png)

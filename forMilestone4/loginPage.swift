@@ -18,7 +18,7 @@ struct loginPage: View {
             Button(action: {appState.hasOnboarded = true}) {
                 LoginButtonContent()}
             thirdPartyLogin()
-            goToLoginPage()
+            goToRegisterPage()
         }.padding()
     }
 }
@@ -31,11 +31,18 @@ struct ContentView_Previews: PreviewProvider {
 
 struct companyName: View {
     var body: some View {
-        Text("EQuALS")
+        /*
+         Text("EQuALS")
             .font(.system(size: 60))
-            .fontWeight(.bold)
+            .fontWeight(.black)
             .foregroundColor(Color.companyColor)
-
+           */
+        
+            
+        Text("EQuALS")
+                .font(.system(size: 50.0))
+                .fontWeight(.black)
+                .foregroundColor((Color.companyColor))
         + Text("TM")
             .font(.system(size: 20.0))
             .fontWeight(.bold)
@@ -45,7 +52,9 @@ struct companyName: View {
 }
 
 struct welcomeMessage: View {
+   
     var body: some View {
+       
         Text("Welcome!")
             .font(.system(size: 35))
             .fontWeight(.bold)
@@ -56,11 +65,11 @@ struct welcomeMessage: View {
             .foregroundColor(Color.gray)
             .fontWeight(.semibold)
             .padding(.bottom)
+        
     }
 }
 
 struct credentialField: View {
-    
     @State var username: String = ""
     @State var password: String = ""
     
@@ -72,7 +81,7 @@ struct credentialField: View {
                 .padding(.horizontal, 30).padding(.top, 20)
             TextField("between 6-64 char.", text: $username)
                 .padding(.horizontal, 30)
-                .font(Font.system(size: 30, design: .default))
+                .font(.body)
             Divider()
                 .background(Color.blue)
                 .padding(.horizontal, 30)
@@ -81,15 +90,19 @@ struct credentialField: View {
                 .fontWeight(.bold)
                 .foregroundColor(.gray)
                 .padding(.horizontal, 30).padding(.top, 20)
+            
             SecureField("at least 8 char.", text: $password)
                 .padding(.horizontal, 30)
-                .font(Font.system(size: 30, design: .default))
+                .font(.body)
+                
             Divider()
                 .background(Color.blue)
                 .padding(.horizontal, 30)
             Text("Forgot Password?")
                 .foregroundColor(Color.lightBlue)
                 .padding()
+                .font(.body)
+            
         }
     }
 }
@@ -119,7 +132,7 @@ struct thirdPartyLogin: View {
             }
             .background(Color.LoginBlue)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.black, lineWidth: 1))
+            .overlay(Circle().stroke(Color.white, lineWidth: 1))
             
             Spacer()
             
@@ -132,19 +145,19 @@ struct thirdPartyLogin: View {
             }
             .background(Color.LoginBlue)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color.black, lineWidth: 1))
+            .overlay(Circle().stroke(Color.white, lineWidth: 1))
             
             Spacer()
         }.padding()
     }
 }
 
-struct goToLoginPage: View {
+struct goToRegisterPage: View {
     var body: some View {
         
         HStack {
             Spacer()
-            Text("Already have an account?")
+            Text("Don't have an account? Sign up")
                 .foregroundColor(Color.lightBlue)
             Spacer()
         }

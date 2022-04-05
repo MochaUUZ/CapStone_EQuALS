@@ -16,7 +16,9 @@
 		A3CE5B3427D73C9E0040748A /* PollingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE5B3327D73C9E0040748A /* PollingPage.swift */; };
 		A3CE5B3627D73EB50040748A /* HistoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE5B3527D73EB50040748A /* HistoryPage.swift */; };
 		A3CE5B3827D73F1D0040748A /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CE5B3727D73F1D0040748A /* SettingPage.swift */; };
+		DE6DBB5027FBB0D700AA8389 /* examHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */; };
 		DEA212D427D7B57C00A5358A /* registerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA212D327D7B57C00A5358A /* registerPage.swift */; };
+		DEE5698127FCD58C004EE101 /* JoinSessionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +32,9 @@
 		A3CE5B3327D73C9E0040748A /* PollingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingPage.swift; sourceTree = "<group>"; };
 		A3CE5B3527D73EB50040748A /* HistoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPage.swift; sourceTree = "<group>"; };
 		A3CE5B3727D73F1D0040748A /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examHistory.swift; sourceTree = "<group>"; };
 		DEA212D327D7B57C00A5358A /* registerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerPage.swift; sourceTree = "<group>"; };
+		DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinSessionPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +68,17 @@
 			isa = PBXGroup;
 			children = (
 				A39E64E727D6DC8000563E84 /* forMilestone4App.swift */,
-				A39E64E927D6DC8000563E84 /* loginPage.swift */,
 				A3CE5B3127D71FD00040748A /* ColorDictionary.swift */,
+				A39E64E927D6DC8000563E84 /* loginPage.swift */,
 				A3CE5B2D27D718160040748A /* mainView.swift */,
 				A3CE5B3727D73F1D0040748A /* SettingPage.swift */,
-				A3CE5B3527D73EB50040748A /* HistoryPage.swift */,
 				A3CE5B3327D73C9E0040748A /* PollingPage.swift */,
 				A3CE5B2F27D71B370040748A /* HomePage.swift */,
-				A39E64EB27D6DC8000563E84 /* Assets.xcassets */,
 				DEA212D327D7B57C00A5358A /* registerPage.swift */,
+				A3CE5B3527D73EB50040748A /* HistoryPage.swift */,
+				DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */,
+				DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */,
+				A39E64EB27D6DC8000563E84 /* Assets.xcassets */,
 			);
 			path = forMilestone4;
 			sourceTree = "<group>";
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE5698127FCD58C004EE101 /* JoinSessionPage.swift in Sources */,
 				A3CE5B3427D73C9E0040748A /* PollingPage.swift in Sources */,
 				A3CE5B2E27D718160040748A /* mainView.swift in Sources */,
 				A39E64EA27D6DC8000563E84 /* loginPage.swift in Sources */,
+				DE6DBB5027FBB0D700AA8389 /* examHistory.swift in Sources */,
 				DEA212D427D7B57C00A5358A /* registerPage.swift in Sources */,
 				A3CE5B3027D71B370040748A /* HomePage.swift in Sources */,
 				A3CE5B3227D71FD00040748A /* ColorDictionary.swift in Sources */,

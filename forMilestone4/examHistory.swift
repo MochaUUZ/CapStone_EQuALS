@@ -13,6 +13,7 @@ struct examHistoryEach:Identifiable{
     var incomplete:String
     
 }
+    //list of exam historys
 let examHistorys=[
     examHistoryEach(companyName: "LABSG(4,400+ Questions)", startDate: "2021-03-28 12:05", score: "98%", incomplete: "1"),
     examHistoryEach(companyName: "Structville - Concrete Technology Quiz", startDate: "2021-03-24 16:37", score: "75%", incomplete: "2"),

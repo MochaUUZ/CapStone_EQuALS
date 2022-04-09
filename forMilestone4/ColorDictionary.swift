@@ -12,4 +12,5 @@ extension Color {
     static let lightBlue = Color(red: 66/255, green: 194/255, blue: 255/255)
     static let LoginBlue = Color(red: 30/255, green: 150/255, blue: 255/255)
     static let semeticPink = Color(red: 246/255, green: 137/255, blue: 137/255)
+    static let backgroundBlue=Color(red: 204/255, green: 242/255, blue: 255/255)
 }

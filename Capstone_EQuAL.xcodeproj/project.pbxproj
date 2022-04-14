@@ -53,7 +53,7 @@
 		A39E64DB27D6DC8000563E84 = {
 			isa = PBXGroup;
 			children = (
-				A39E64E627D6DC8000563E84 /* forMilestone4 */,
+				A39E64E627D6DC8000563E84 /* Capstone_EQuALS */,
 				A39E64E527D6DC8000563E84 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A39E64E627D6DC8000563E84 /* forMilestone4 */ = {
+		A39E64E627D6DC8000563E84 /* Capstone_EQuALS */ = {
 			isa = PBXGroup;
 			children = (
 				A39E64E727D6DC8000563E84 /* forMilestone4App.swift */,
@@ -83,15 +83,15 @@
 				A39E64EB27D6DC8000563E84 /* Assets.xcassets */,
 				A3372FDA28083D4700215B7A /* QuestionPage.swift */,
 			);
-			path = forMilestone4;
+			path = Capstone_EQuALS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A39E64E327D6DC8000563E84 /* forMilestone4 */ = {
+		A39E64E327D6DC8000563E84 /* Capstone_EQuALS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A39E64F227D6DC8000563E84 /* Build configuration list for PBXNativeTarget "forMilestone4" */;
+			buildConfigurationList = A39E64F227D6DC8000563E84 /* Build configuration list for PBXNativeTarget "Capstone_EQuALS" */;
 			buildPhases = (
 				A39E64E027D6DC8000563E84 /* Sources */,
 				A39E64E127D6DC8000563E84 /* Frameworks */,
@@ -101,7 +101,7 @@
 			);
 			dependencies = (
 			);
-			name = forMilestone4;
+			name = Capstone_EQuALS;
 			productName = forMilestone4;
 			productReference = A39E64E427D6DC8000563E84 /* Capstone_EQuALS.app */;
 			productType = "com.apple.product-type.application";
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A39E64DF27D6DC8000563E84 /* Build configuration list for PBXProject "forMilestone4" */;
+			buildConfigurationList = A39E64DF27D6DC8000563E84 /* Build configuration list for PBXProject "Capstone_EQuAL" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A39E64E327D6DC8000563E84 /* forMilestone4 */,
+				A39E64E327D6DC8000563E84 /* Capstone_EQuALS */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"forMilestone4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Capstone_EQuALS/Preview Content\"";
 				DEVELOPMENT_TEAM = 8H9VKBRVUV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"forMilestone4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Capstone_EQuALS/Preview Content\"";
 				DEVELOPMENT_TEAM = 8H9VKBRVUV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A39E64DF27D6DC8000563E84 /* Build configuration list for PBXProject "forMilestone4" */ = {
+		A39E64DF27D6DC8000563E84 /* Build configuration list for PBXProject "Capstone_EQuAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A39E64F027D6DC8000563E84 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A39E64F227D6DC8000563E84 /* Build configuration list for PBXNativeTarget "forMilestone4" */ = {
+		A39E64F227D6DC8000563E84 /* Build configuration list for PBXNativeTarget "Capstone_EQuALS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A39E64F327D6DC8000563E84 /* Debug */,

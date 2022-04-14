@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3372FDB28083D4700215B7A /* QuestionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3372FDA28083D4700215B7A /* QuestionPage.swift */; };
 		A39E64E827D6DC8000563E84 /* forMilestone4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E64E727D6DC8000563E84 /* forMilestone4App.swift */; };
 		A39E64EA27D6DC8000563E84 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E64E927D6DC8000563E84 /* loginPage.swift */; };
 		A39E64EC27D6DC8000563E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39E64EB27D6DC8000563E84 /* Assets.xcassets */; };
@@ -22,7 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A39E64E427D6DC8000563E84 /* forMilestone4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forMilestone4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3372FDA28083D4700215B7A /* QuestionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPage.swift; sourceTree = "<group>"; };
+		A39E64E427D6DC8000563E84 /* Capstone_EQuALS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone_EQuALS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39E64E727D6DC8000563E84 /* forMilestone4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forMilestone4App.swift; sourceTree = "<group>"; };
 		A39E64E927D6DC8000563E84 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
 		A39E64EB27D6DC8000563E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		A39E64E527D6DC8000563E84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A39E64E427D6DC8000563E84 /* forMilestone4.app */,
+				A39E64E427D6DC8000563E84 /* Capstone_EQuALS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +81,7 @@
 				DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */,
 				DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */,
 				A39E64EB27D6DC8000563E84 /* Assets.xcassets */,
+				A3372FDA28083D4700215B7A /* QuestionPage.swift */,
 			);
 			path = forMilestone4;
 			sourceTree = "<group>";
@@ -100,7 +103,7 @@
 			);
 			name = forMilestone4;
 			productName = forMilestone4;
-			productReference = A39E64E427D6DC8000563E84 /* forMilestone4.app */;
+			productReference = A39E64E427D6DC8000563E84 /* Capstone_EQuALS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,6 +165,7 @@
 				A3CE5B3227D71FD00040748A /* ColorDictionary.swift in Sources */,
 				A3CE5B3627D73EB50040748A /* HistoryPage.swift in Sources */,
 				A39E64E827D6DC8000563E84 /* forMilestone4App.swift in Sources */,
+				A3372FDB28083D4700215B7A /* QuestionPage.swift in Sources */,
 				A3CE5B3827D73F1D0040748A /* SettingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +311,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.ShengDong.forMilestone4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Capstone_EQuALS;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,7 +340,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.ShengDong.forMilestone4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Capstone_EQuALS;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -9,25 +9,29 @@ import SwiftUI
 
 // Define the observable
 class AppState: ObservableObject {
-    @Published var hasOnboarded: Bool
+    @Published var hasOnboarded: Int
     
-    init(currentOnBoarded: Bool) {
+    init(currentOnBoarded: Int) {
         self.hasOnboarded = currentOnBoarded
     }
 }
 
 @main
 struct forMilestone4App: App {
-    @ObservedObject var appState = AppState(currentOnBoarded: false)
+    @ObservedObject var appState = AppState(currentOnBoarded: 0)
     
     var body: some Scene {
         WindowGroup {
-            if appState.hasOnboarded {
-                mainView()
+            if appState.hasOnboarded == 0{
+                loginPage()
                     .environmentObject(appState)
             }
-            else {
-                loginPage()
+            else if  appState.hasOnboarded == 1 {
+                registerPage()
+                    .environmentObject(appState)
+            }
+            else if  appState.hasOnboarded == 2{
+                mainView()
                     .environmentObject(appState)
             }
         }

@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct registerPage: View {
+    @EnvironmentObject var appState: AppState
     var body: some View {
         VStack(alignment: .leading) {
-            returnToLoginPage().padding(.trailing)
+            Button(action: {appState.hasOnboarded = 0}){
+                returnToLoginPage().padding(.trailing)
+            }
+            
             registerInfo()
             acceptRules()
-            Button(action: {}) {
+            Button(action: {appState.hasOnboarded = 2}) {
                 ContinueButtonContent()}
             thirdPartyLogin()
-            goToLoginPage()
+           
         }.padding()
     }
 }
@@ -137,17 +141,5 @@ struct ContinueButtonContent:View{
             .background(Color.LoginBlue)
             .cornerRadius(15.0)
         
-    }
-}
-
-struct goToLoginPage: View {
-    var body: some View {
-        
-        HStack {
-            Spacer()
-            Text("Already have an account?")
-                .foregroundColor(Color.lightBlue)
-            Spacer()
-        }
     }
 }

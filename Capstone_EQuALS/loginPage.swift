@@ -15,10 +15,12 @@ struct loginPage: View {
             companyName()
             welcomeMessage()
             credentialField()
-            Button(action: {appState.hasOnboarded = true}) {
+            Button(action: {appState.hasOnboarded = 2}) {
                 LoginButtonContent()}
             thirdPartyLogin()
-            goToRegisterPage()
+            Button(action: {appState.hasOnboarded = 1}) {
+                goToRegisterPage()
+                }
         }.padding()
     }
 }

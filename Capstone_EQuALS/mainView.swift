@@ -6,9 +6,31 @@
 //
 
 import SwiftUI
+import Firebase
+
+class mainViewViewModel: ObservableObject {
+    @Published var errorMessage = ""
+    @Published var isUserCurrentlyLoggedOut = false
+    
+    init() {
+        DispatchQueue.main.async {
+            self.isUserCurrentlyLoggedOut = FirebaseManager.shared.auth.currentUser?.uid == nil
+            print("User is currently: \(self.isUserCurrentlyLoggedOut)")
+        }
+    }
+    
+    func handleSignOut() {
+        print("toggle log out status")
+        isUserCurrentlyLoggedOut.toggle()
+        try? FirebaseManager.shared.auth.signOut()
+    }
+}
 
 struct mainView: View {
-    @EnvironmentObject var appState: AppState
+    // @EnvironmentObject var appState: AppState
+    
+    @ObservedObject public var vm = mainViewViewModel()
+    
     init() {
         UITabBar.appearance().backgroundColor = UIColor.systemFill
         UITabBar.appearance().barTintColor = UIColor.white
@@ -21,7 +43,6 @@ struct mainView: View {
                     Label("Home", systemImage: "house.fill")
                     
                 }
-            
             
             PollingPage()
                 .tabItem {
@@ -38,6 +59,11 @@ struct mainView: View {
                     Label("Setting", systemImage: "person.fill")
                 }
     }
+        .fullScreenCover(isPresented: $vm.isUserCurrentlyLoggedOut, onDismiss: nil) {
+            loginPage {
+                self.vm.isUserCurrentlyLoggedOut = false
+            }
+        }
 }
 
 struct mainView_Previews: PreviewProvider {

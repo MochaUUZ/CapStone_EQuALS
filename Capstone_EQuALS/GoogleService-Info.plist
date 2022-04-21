@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>694741634427-plk3eceatvlj42svus3lq0n3qh280etr.apps.googleusercontent.com</string>
+	<string>694741634427-krtt0003r5t7gesdjq0lmcse8gb6h8um.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.694741634427-plk3eceatvlj42svus3lq0n3qh280etr</string>
+	<string>com.googleusercontent.apps.694741634427-krtt0003r5t7gesdjq0lmcse8gb6h8um</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCUqtNmiPtfMEg1Hs9VstGVYr8ai6grDL0</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>io.ShengDong.forMilestone4</string>
+	<string>io.EQuALS.CapStone</string>
 	<key>PROJECT_ID</key>
 	<string>equals-beta</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:694741634427:ios:23345217d2a652fa8001de</string>
+	<string>1:694741634427:ios:e887b92263b7bd7d8001de</string>
 </dict>
 </plist>

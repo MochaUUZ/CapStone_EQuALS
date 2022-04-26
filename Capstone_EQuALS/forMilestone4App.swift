@@ -22,14 +22,17 @@ struct forMilestone4App: App {
     
     var body: some Scene {
         WindowGroup {
-            if appState.hasOnboarded {
-                mainView()
-                    .environmentObject(appState)
-            }
-            else {
-                loginPage()
-                    .environmentObject(appState)
-            }
+            mainView()
+//            if appState.hasOnboarded {
+//                mainView()
+//                    .environmentObject(appState)
+//            }
+//            else {
+//                loginPage(didCompleteLoginProcess: {
+//
+//                })
+//                    .environmentObject(appState)
+//            }
         }
     }
 }

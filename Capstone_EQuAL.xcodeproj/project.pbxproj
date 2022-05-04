@@ -25,6 +25,10 @@
 		A3E89C21281110C600C2BFB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3E89C20281110C600C2BFB3 /* GoogleService-Info.plist */; };
 		DE6DBB5027FBB0D700AA8389 /* examHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */; };
 		DEA212D427D7B57C00A5358A /* registerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA212D327D7B57C00A5358A /* registerPage.swift */; };
+		DEBF34C128176BEC0035C61F /* setting-changePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF34C028176BEC0035C61F /* setting-changePassword.swift */; };
+		DEBF34C328176E720035C61F /* setting-updateUserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF34C228176E720035C61F /* setting-updateUserName.swift */; };
+		DEBF34C5281773580035C61F /* setting-updateEmailAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF34C4281773580035C61F /* setting-updateEmailAddress.swift */; };
+		DEBF34C7281774E20035C61F /* forgetPassWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF34C6281774E20035C61F /* forgetPassWord.swift */; };
 		DEE5698127FCD58C004EE101 /* JoinSessionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,10 @@
 		A3E89C20281110C600C2BFB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examHistory.swift; sourceTree = "<group>"; };
 		DEA212D327D7B57C00A5358A /* registerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerPage.swift; sourceTree = "<group>"; };
+		DEBF34C028176BEC0035C61F /* setting-changePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "setting-changePassword.swift"; sourceTree = "<group>"; };
+		DEBF34C228176E720035C61F /* setting-updateUserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "setting-updateUserName.swift"; sourceTree = "<group>"; };
+		DEBF34C4281773580035C61F /* setting-updateEmailAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "setting-updateEmailAddress.swift"; sourceTree = "<group>"; };
+		DEBF34C6281774E20035C61F /* forgetPassWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPassWord.swift; sourceTree = "<group>"; };
 		DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinSessionPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,13 +104,17 @@
 			isa = PBXGroup;
 			children = (
 				A39E64E927D6DC8000563E84 /* loginPage.swift */,
-				A3CE5B3727D73F1D0040748A /* SettingPage.swift */,
 				A3CE5B3327D73C9E0040748A /* PollingPage.swift */,
 				A3CE5B2F27D71B370040748A /* HomePage.swift */,
 				DEA212D327D7B57C00A5358A /* registerPage.swift */,
 				A3CE5B3527D73EB50040748A /* HistoryPage.swift */,
 				DE6DBB4F27FBB0D700AA8389 /* examHistory.swift */,
 				DEE5698027FCD58C004EE101 /* JoinSessionPage.swift */,
+				A3CE5B3727D73F1D0040748A /* SettingPage.swift */,
+				DEBF34C028176BEC0035C61F /* setting-changePassword.swift */,
+				DEBF34C228176E720035C61F /* setting-updateUserName.swift */,
+				DEBF34C4281773580035C61F /* setting-updateEmailAddress.swift */,
+				DEBF34C6281774E20035C61F /* forgetPassWord.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,9 +212,13 @@
 				A3CE5B3427D73C9E0040748A /* PollingPage.swift in Sources */,
 				A3CE5B2E27D718160040748A /* mainView.swift in Sources */,
 				A39E64EA27D6DC8000563E84 /* loginPage.swift in Sources */,
+				DEBF34C328176E720035C61F /* setting-updateUserName.swift in Sources */,
 				DE6DBB5027FBB0D700AA8389 /* examHistory.swift in Sources */,
+				DEBF34C7281774E20035C61F /* forgetPassWord.swift in Sources */,
 				DEA212D427D7B57C00A5358A /* registerPage.swift in Sources */,
+				DEBF34C128176BEC0035C61F /* setting-changePassword.swift in Sources */,
 				A3CE5B3027D71B370040748A /* HomePage.swift in Sources */,
+				DEBF34C5281773580035C61F /* setting-updateEmailAddress.swift in Sources */,
 				A3CE5B3227D71FD00040748A /* ColorDictionary.swift in Sources */,
 				A3CE5B3627D73EB50040748A /* HistoryPage.swift in Sources */,
 				A39E64E827D6DC8000563E84 /* forMilestone4App.swift in Sources */,
@@ -417,7 +433,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 8.0.0;
 			};
 		};

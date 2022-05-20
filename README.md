@@ -33,5 +33,3 @@ wil not be lose during the implementation. In addition, the overall UI/UX will b
 
 
 >This is a capstone project for course ICSI 499: Capstone Project @ University at Albany. Our sponsor is Mark Mitalski from EQuALS, LLC.  [www.equals.prepareinc.us](https://equals.prepareinc.us)
-
-![End Banner](Documentation/readme-end-banner.png)

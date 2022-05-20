@@ -28,6 +28,7 @@ wil not be lose during the implementation. In addition, the overall UI/UX will b
 # video demo
 https://www.youtube.com/watch?v=NBVYtkxW6Yg
 
+<img src="pic/Home.PNG" width="48">
 ![Home Page](pic/Home.PNG | width=100)
 ![Home Page](pic/explanationPage.PNG)
 ![Home Page](pic/Login.PNG)

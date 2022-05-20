@@ -25,6 +25,9 @@ wil not be lose during the implementation. In addition, the overall UI/UX will b
 * Payment method
 
 ## Project in-a-glare
+# video demo
+https://www.youtube.com/watch?v=NBVYtkxW6Yg
+
 ![Home Page](pic/Home.PNG)
 ![Home Page](pic/explanationPage.PNG)
 ![Home Page](pic/Login.PNG)

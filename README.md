@@ -28,8 +28,7 @@ wil not be lose during the implementation. In addition, the overall UI/UX will b
 # video demo
 https://www.youtube.com/watch?v=NBVYtkxW6Yg
 
-<img src="pic/Home.PNG" width="125">
-<img src="pic/explanationPage.PNG" width="125">
+<img src="pic/Home.PNG" width="125"> <img src="pic/explanationPage.PNG" width="125">
 <img src="pic/Login.PNG" width="125">
 <img src="pic/questionPage.PNG" width="125">
 <img src="pic/resultPage.PNG" width="125">
